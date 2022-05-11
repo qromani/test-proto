@@ -1,0 +1,6 @@
+version: v1
+plugins:
+  - name: java
+    out: gen/proto/java
+  - name: go
+    out: gen/proto/go

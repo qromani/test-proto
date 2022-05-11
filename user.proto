@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package dev.romani.proto;
+
+option java_package = "dev.romani.proto";
+option go_package = "github.com/qromani/proto";
+
+message User {
+    string name = 1;
+    string age = 2;
+}
